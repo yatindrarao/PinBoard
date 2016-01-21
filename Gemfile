@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-
+gem 'devise', '~> 3.5', '>= 3.5.4'
+gem 'paperclip', '~> 4.3', '>= 4.3.2'
 gem 'rails', '4.2.4'
 gem 'sass-rails', '~> 5.0'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby

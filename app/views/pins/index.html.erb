@@ -1,0 +1,7 @@
+<% @pins.each do |pin| %>
+  <h2>
+  <%= link_to pin.title,pin_path(pin.id) %>
+  </h2>
+<% end %>
+
+<%= link_to 'Create',new_pin_path,class:'btn btn-default' %>
