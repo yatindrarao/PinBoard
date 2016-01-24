@@ -7,7 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <%= link_to "Pin Board",root_path,class:'navbar-brand' %>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+      <li><%= link_to_if(user_signned_in?,"Sign Out",) %></li>
+      <li><a href="#">Sign Up</a></li>	
 
+    </ul>
+       
+  </nav>
 <%= notice %>
 <%= yield %>
 </body>
