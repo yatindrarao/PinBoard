@@ -264,5 +264,4 @@ Devise.setup do |config|
   
   #config.omniauth_path_prefix = 'callbacks'
 
-  config.omniauth :facebook,"468076440045268","73597dcbee2d3a9a531e67fccd73ac16"
 end
